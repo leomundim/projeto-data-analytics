@@ -30,7 +30,7 @@ Esse projeto tem o seguinte escopo:
 
 1. **SQL Server**: T-SQL e SQL.
 2. **Power BI**: DAX, Power Query, Power BI Service.
-3. **Azure ML**: Python (Statsmodels, Scypi, Pandas).
+3. **Azure ML**: Python (Statsmodels, SciPy, Pandas).
 
 ---
 
