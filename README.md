@@ -20,7 +20,7 @@ Esse projeto tem o seguinte escopo:
 1. **Arquitetura**: Implementar um Data Warehouse no padrão Medallion. Camadas **Bronze** - carregamento as-is, **Silver** - limpeza e enriquecimento dos dados, e **Gold** - modelagem e preparação para uso final (views).
 2. **ETL**: Extrair, transformar e carregar os dados, deixando-os prontos para consumo final.
 3. **Modelagem de Dados**: Criar as tabelas fato e dimensão.
-4. **Dashboard**: Criar dashboard no Power BI com KPI's e métricas como Faturamento, Lucro, Margem, ROAS e demais indicadores relacionados a perfomrance de vendas e marketing.
+4. **Dashboard**: Criar dashboard no Power BI com KPI's e métricas como Faturamento, Lucro, Margem, ROAS e demais indicadores relacionados a performance de vendas e marketing.
 5. **Análise de Dados**: Analisar dados e realizar testes estatísticos em um cenário de otimização de investimentos em anúncios de uma campanha de marketing.
 6. **Apresentação de Resultados**: Apresentar o resultado dos testes, com recomendação de ação.
 
