@@ -1,3 +1,6 @@
+--Verifica se existe a tabela, realiza a exclusão e cria uma nova.
+
+
 IF OBJECT_ID('bronze.ads', 'U') IS NOT NULL
     DROP TABLE bronze.ads;
 GO
