@@ -47,12 +47,12 @@ GO
 
 
 -- Criação da tabela fato 'Vendas'
-IF OBJECT_ID('gold.dim_vendas', 'V') IS NOT NULL
-	DROP VIEW gold.dim_vendas;
+IF OBJECT_ID('gold.fato_vendas', 'V') IS NOT NULL
+	DROP VIEW gold.fato_vendas;
 
 GO
 
-CREATE VIEW gold.dim_vendas AS
+CREATE VIEW gold.fato_vendas AS
 
 SELECT
 	vendas_chave_transacao  	AS id_venda,
