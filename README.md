@@ -1,4 +1,4 @@
-# Projeto: Data Analytics 
+Projeto: Data Analytics 
 
 Bem-vindos ao repositório desse projeto! 
 
@@ -17,7 +17,10 @@ Duas informações de suma importância precisam ser consideradas:
 
 Esse projeto tem o seguinte escopo:
 
-- **Arquitetura**: Implementar um Data Warehouse no padrão Medallion. Camadas **Bronze** - carregamento as-is, **Silver** - limpeza e enriquecimento dos dados, e **Gold** - modelagem e preparação para uso final (views).
+- **Arquitetura**: Implementar um Data Warehouse no padrão Medallion.
+  - BRONZE - carregamento as-is
+  - SILVER - limpeza e enriquecimento dos dados
+  - GOLD   - modelagem e preparação para uso final (views)
 - **ETL**: Extrair, transformar e carregar os dados, deixando-os prontos para consumo final.
 - **Modelagem de Dados**: Criar as tabelas fato e dimensão.
 - **Dashboard**: Criar dashboard no Power BI com KPI's e métricas como Faturamento, Lucro, Margem, ROAS e demais indicadores relacionados a performance de vendas e marketing.
