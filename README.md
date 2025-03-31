@@ -71,8 +71,6 @@ Projeto sob licença [MIT License](LICENSE).
 
 Meu nome é **Leonardo Mundim**, sou um Analista de Dados & BI, apaixonado por resolver problemas reais de negócios com soluções data-driven, mesclando o pensamento analítico e simplicidade.
 
-Vamos nos conectar!
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/leonardo-mundim)
 
 
