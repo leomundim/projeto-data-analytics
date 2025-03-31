@@ -23,7 +23,7 @@ Esse projeto tem o seguinte escopo:
 5. **Análise de Dados**: Analisar dados e realizar testes estatísticos em um cenário de otimização de investimentos em anúncios de uma campanha de marketing.
 6. **Apresentação de Resultados**: Apresentar o resultado dos testes, com recomendação de ação.
 
-![Arquitetura](arquitetura_final.drawio.PNG)
+![Arquitetura](docs/arquitetura_final.drawio.PNG)
 
 
 ---
