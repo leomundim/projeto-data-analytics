@@ -25,6 +25,10 @@ Esse projeto tem o seguinte escopo:
 
 ![Arquitetura](docs/arquitetura_final.drawio.PNG)
 
+---
+## 🧩 Contexto de Negócio
+*detalhar o contexto, incluir um GIF com o dashboard , o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
+
 
 ---
 ## 🛠️ Tecnologia 
@@ -73,6 +77,4 @@ Vamos nos conectar!
 
 
 
----
-## 🧩 Contexto de Negócio
-*detalhar o contexto, incluir um GIF com o dashboard , o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
+
