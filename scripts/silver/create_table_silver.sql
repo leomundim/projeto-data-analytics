@@ -45,7 +45,7 @@ CREATE TABLE silver.vendas (
 	vendas_regiao            NVARCHAR(50) NULL,
 	vendas_cliente           NVARCHAR(50) NULL,
 	vendas_segmento          NVARCHAR(50) NULL,
-	vendas_cliente_chave     INT NULL,
+	vendas_cliente_chave     NVARCHAR(100)NULL,
 	vendas_id_produto        NVARCHAR(50) NULL,
 	vendas_produto           NVARCHAR(50) NULL,
 	vendas_preco             DECIMAL(10,2) NULL,
