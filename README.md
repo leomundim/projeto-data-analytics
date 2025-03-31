@@ -33,7 +33,7 @@ Esse projeto tem o seguinte escopo:
 2. **Power BI**: DAX, Power Query, Power BI Service.
 3. **Azure ML**: Python (Statsmodels, SciPy, Pandas).
 
----
+
 
 ## Estrutura do Repositório
 ```
@@ -59,7 +59,7 @@ projeto-data-warehouse-analytics/
 ```
 
 
----
+
 ## Sobre Mim
 
 Meu nome é **Leonardo Mundim**, sou um Analista de Dados & BI, apaixonado por resolver problemas reais de negócios com soluções data-driven, mesclando o pensamento analítico e simplicidade.
@@ -70,6 +70,6 @@ Vamos nos conectar!
 
 
 
----
+
 ## Prévia dos Resultados
 *incluir um GIF com o dashboard ou o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
