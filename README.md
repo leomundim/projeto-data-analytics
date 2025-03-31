@@ -1,31 +1,42 @@
 # Projeto: Data Analytics #
 
-Bem-vindos ao repositório desse projeto! 
+Bem-vindo ao repositório deste projeto! 
 
-O objetivo desse projeto é apresentar uma solução completa de análise de dados, desde a construção de um data warehouse simples, até a criação de um dashboard para análises do negócio, incluindo testes estatísticos e recomendações.
+Este projeto apresenta uma solução completa de análise de dados, desde a construção de um data warehouse simples até a criação de um dashboard para monitoramento do negócio. Além disso, inclui testes estatísticos e recomendações baseadas nos insights obtidos.
 
-Duas informações de suma importância precisam ser consideradas:
+### Informações importantes: 
 
-**1.** Esse projeto é uma releitura de um trabalho que fiz em uma experiência profissional anterior, por isso, algumas informações como nomes de clientes, produtos, preços e custos foram alteradas para valores fictícios a fim de manter a privacidade dos dados da empresa. Contudo, a estrutura do projeto se manteve para ser o mais fidedigno possível em relação ao original.
+**1.** Origem do projeto: Esta é uma releitura de um trabalho que desenvolvi em uma experiência profissional anterior. Para preservar a privacidade da empresa, dados como nomes de clientes, produtos, preços e custos foram substituídos por valores fictícios. No entanto, a estrutura do projeto foi mantida para garantir a fidelidade ao cenário real.
 
-**2.** O trabalho anterior foi feito através do Excel, Power BI e Python. Para esse projeto, estou realizando o trabalho de ETL dentro do SQL Server para deixá-lo mais estruturado e utilizando o Azure ML para os testes estatísticos, no intuito de apresentar as melhores práticas em arquitetura e análise de dados.
+**2.** Tecnologias utilizadas: No projeto original, utilizei Excel, Power BI e Python. Nesta versão, estou realizando o processo de ETL no SQL Server para uma abordagem mais estruturada e aplicando o Azure ML para os testes estatísticos, seguindo as melhores práticas em arquitetura e análise de dados.
 
 
 
 
 ## 1️⃣ Visão Geral
 
-Esse projeto tem o seguinte escopo:
+Este projeto tem como objetivo estruturar e analisar dados para otimizar a tomada de decisão no negócio. Para isso, serão seguidas as seguintes etapas:  
 
-- **Arquitetura**: Implementar um Data Warehouse no padrão Medallion.
-  - BRONZE - carregamento as-is
-  - SILVER - limpeza e enriquecimento dos dados
-  - GOLD   - modelagem e preparação para uso final (views)
-- **ETL**: Extrair, transformar e carregar os dados, deixando-os prontos para consumo final.
-- **Modelagem de Dados**: Criar as tabelas fato e dimensão.
-- **Dashboard**: Criar dashboard no Power BI com KPI's e métricas como Faturamento, Lucro, Margem, ROAS e demais indicadores relacionados a performance de vendas e marketing.
-- **Análise de Dados**: Analisar dados e realizar testes estatísticos em um cenário de otimização de investimentos em anúncios de uma campanha de marketing.
-- **Apresentação de Resultados**: Apresentar o resultado dos testes, com recomendação de ação.
+### 1. Arquitetura de Dados  
+Implementação de um Data Warehouse simples seguindo o padrão Medallion Architecture:  
+- **Bronze**: Carregamento dos dados no formato original (*as-is*).  
+- **Silver**: Limpeza, padronização e enriquecimento dos dados.  
+- **Gold**: Modelagem e preparação dos dados para consumo final (views).  
+
+### 2. ETL (Extração, Transformação e Carga)  
+Processamento e organização dos dados para que estejam prontos para análises e visualizações.  
+
+### 3. Modelagem de Dados  
+Criação das tabelas fato e dimensão, garantindo uma estrutura otimizada para consultas e análises.  
+
+### 4. Dashboard no Power BI  
+Desenvolvimento de um painel interativo com métricas e KPIs estratégicos, como Faturamento, Lucro, Margem, ROAS e outros indicadores de performance de vendas e marketing.  
+
+### 5. Análise de Dados  
+Aplicação de testes estatísticos para avaliar o impacto de investimentos em anúncios de campanhas de marketing.  
+
+### 6. Apresentação de Resultados  
+Interpretação dos testes estatísticos e recomendações baseadas nos insights obtidos, auxiliando na tomada de decisão.
 
 ![Arquitetura](docs/arquitetura_final.drawio.PNG)
 
