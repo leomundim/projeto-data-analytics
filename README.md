@@ -10,7 +10,7 @@ Duas informações de suma importância precisam ser consideradas:
 2. O trabalho anterior foi feito através do Excel, Power BI e Python. Para esse projeto, estou realizando o trabalho de ETL dentro do SQL Server para deixá-lo mais estruturado e utilizando o Azure ML para os testes estatísticos, no intuito de apresentar as melhores práticas em arquitetura e análise de dados.
 
 
----
+
 
 ## Visão Geral
 
@@ -26,7 +26,7 @@ Esse projeto tem o seguinte escopo:
 ![Arquitetura](docs/arquitetura_final.drawio.PNG)
 
 
----
+
 ## Tecnologia 
 
 1. **SQL Server**: T-SQL e SQL.
