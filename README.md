@@ -6,37 +6,38 @@ O objetivo desse projeto é apresentar uma solução completa de análise de dad
 
 Duas informações de suma importância precisam ser consideradas:
 
-1. Esse projeto é uma releitura de um trabalho que fiz em uma experiência profissional anterior, por isso, algumas informações como nomes de clientes, produtos, preços e custos foram alteradas para valores fictícios a fim de manter a privacidade dos dados da empresa. Contudo, a estrutura do projeto se manteve para ser o mais fidedigno possível em relação ao original.
-2. O trabalho anterior foi feito através do Excel, Power BI e Python. Para esse projeto, estou realizando o trabalho de ETL dentro do SQL Server para deixá-lo mais estruturado e utilizando o Azure ML para os testes estatísticos, no intuito de apresentar as melhores práticas em arquitetura e análise de dados.
+**1.** Esse projeto é uma releitura de um trabalho que fiz em uma experiência profissional anterior, por isso, algumas informações como nomes de clientes, produtos, preços e custos foram alteradas para valores fictícios a fim de manter a privacidade dos dados da empresa. Contudo, a estrutura do projeto se manteve para ser o mais fidedigno possível em relação ao original.
+
+**2.** O trabalho anterior foi feito através do Excel, Power BI e Python. Para esse projeto, estou realizando o trabalho de ETL dentro do SQL Server para deixá-lo mais estruturado e utilizando o Azure ML para os testes estatísticos, no intuito de apresentar as melhores práticas em arquitetura e análise de dados.
 
 
 
 
-## 📋 Visão Geral
+## 1️⃣ Visão Geral
 
 Esse projeto tem o seguinte escopo:
 
-1. **Arquitetura**: Implementar um Data Warehouse no padrão Medallion. Camadas **Bronze** - carregamento as-is, **Silver** - limpeza e enriquecimento dos dados, e **Gold** - modelagem e preparação para uso final (views).
-2. **ETL**: Extrair, transformar e carregar os dados, deixando-os prontos para consumo final.
-3. **Modelagem de Dados**: Criar as tabelas fato e dimensão.
-4. **Dashboard**: Criar dashboard no Power BI com KPI's e métricas como Faturamento, Lucro, Margem, ROAS e demais indicadores relacionados a performance de vendas e marketing.
-5. **Análise de Dados**: Analisar dados e realizar testes estatísticos em um cenário de otimização de investimentos em anúncios de uma campanha de marketing.
-6. **Apresentação de Resultados**: Apresentar o resultado dos testes, com recomendação de ação.
+- **Arquitetura**: Implementar um Data Warehouse no padrão Medallion. Camadas **Bronze** - carregamento as-is, **Silver** - limpeza e enriquecimento dos dados, e **Gold** - modelagem e preparação para uso final (views).
+- **ETL**: Extrair, transformar e carregar os dados, deixando-os prontos para consumo final.
+- **Modelagem de Dados**: Criar as tabelas fato e dimensão.
+- **Dashboard**: Criar dashboard no Power BI com KPI's e métricas como Faturamento, Lucro, Margem, ROAS e demais indicadores relacionados a performance de vendas e marketing.
+- **Análise de Dados**: Analisar dados e realizar testes estatísticos em um cenário de otimização de investimentos em anúncios de uma campanha de marketing.
+- **Apresentação de Resultados**: Apresentar o resultado dos testes, com recomendação de ação.
 
 ![Arquitetura](docs/arquitetura_final.drawio.PNG)
 
 
 
 
-## 📋 Tecnologia 
+## 2️⃣ Tecnologia 
 
-1. **SQL Server**: T-SQL e SQL.
-2. **Power BI**: DAX, Power Query, Power BI Service.
-3. **Azure ML**: Python (Statsmodels, SciPy, Pandas).
+- **SQL Server**: T-SQL e SQL.
+- **Power BI**: DAX, Power Query, Power BI Service.
+- **Azure ML**: Python (Statsmodels, SciPy, Pandas).
 
 
 
-## 📋 Contexto de Negócio
+## 3️⃣ Contexto de Negócio
 *detalhar o contexto, incluir um GIF com o dashboard , o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
 
 
@@ -44,7 +45,7 @@ Esse projeto tem o seguinte escopo:
 
 
 
-## 📋 Estrutura do Repositório
+## 4️⃣ Estrutura do Repositório
 ```
 projeto-data-warehouse-analytics/
 │
@@ -67,7 +68,7 @@ projeto-data-warehouse-analytics/
 ```
 
 
-## 📋 Licença
+## 5️⃣ Licença
 
 Projeto sob licença [MIT License](LICENSE).
  
