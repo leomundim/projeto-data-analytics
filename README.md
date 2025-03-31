@@ -25,9 +25,6 @@ Esse projeto tem o seguinte escopo:
 
 ![Arquitetura](docs/arquitetura_final.drawio.PNG)
 
----
-## Contexto de Negócio
-*detalhar o contexto, incluir um GIF com o dashboard , o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
 
 
 ---
@@ -36,6 +33,14 @@ Esse projeto tem o seguinte escopo:
 1. **SQL Server**: T-SQL e SQL.
 2. **Power BI**: DAX, Power Query, Power BI Service.
 3. **Azure ML**: Python (Statsmodels, SciPy, Pandas).
+
+
+---
+## Contexto de Negócio
+*detalhar o contexto, incluir um GIF com o dashboard , o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
+
+
+
 
 
 ---
