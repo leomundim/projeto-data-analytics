@@ -11,8 +11,8 @@ Duas informações de suma importância precisam ser consideradas:
 
 
 
----
-## Visão Geral
+
+## 📋 Visão Geral
 
 Esse projeto tem o seguinte escopo:
 
@@ -27,8 +27,8 @@ Esse projeto tem o seguinte escopo:
 
 
 
----
-##  Tecnologia 
+
+## 📋 Tecnologia 
 
 1. **SQL Server**: T-SQL e SQL.
 2. **Power BI**: DAX, Power Query, Power BI Service.
@@ -36,15 +36,15 @@ Esse projeto tem o seguinte escopo:
 
 
 ---
-## Contexto de Negócio
+## 📋 Contexto de Negócio
 *detalhar o contexto, incluir um GIF com o dashboard , o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
 
 
 
 
 
----
-## Estrutura do Repositório
+
+## 📋 Estrutura do Repositório
 ```
 projeto-data-warehouse-analytics/
 │
@@ -66,8 +66,8 @@ projeto-data-warehouse-analytics/
 
 ```
 
----
-##  Licença
+
+## 📋 Licença
 
 Projeto sob licença [MIT License](LICENSE).
  
