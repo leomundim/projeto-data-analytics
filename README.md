@@ -58,9 +58,10 @@ projeto-data-warehouse-analytics/
 ```
 
 ---
-## 🛡️ License
+## 🛡️ Licença
 
-Licença [MIT License](LICENSE). 
+Projeto sob licença [MIT License](LICENSE).
+ 
 ---
 ## Sobre Mim
 
