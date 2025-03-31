@@ -35,6 +35,10 @@ CREATE VIEW gold.dim_produtos AS
 SELECT
 	DISTINCT(vendas_id_produto) AS id_produto,
 	vendas_produto 	   	    AS produto,
+	CASE
+	  WHEN SUBSTRING(vendas_produto, 1, CHARINDEX(' ', vendas_produto) - 1) = 'Bolo' THEN CONCAT('Bolo', ' ', 'Inglês')
+	  ELSE SUBSTRING(vendas_produto, 1, CHARINDEX(' ', vendas_produto) - 1)
+	END AS linha_produto,
 	vendas_preco 		    AS preco_unitario,
 	vendas_custo 		    AS custo_unitario
 FROM silver.vendas
