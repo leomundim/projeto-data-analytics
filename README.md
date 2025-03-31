@@ -41,37 +41,48 @@ Esse projeto tem o seguinte escopo:
 
 
 ## 3️⃣ Contexto de Negócio
-*detalhar o contexto, incluir um GIF com o dashboard , o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
+
+- Havia a necessidade de organizar os dados e definir métricas e KPIs de vendas e marketing para acompanhar o desempenho da área comercial. Para isso, seria essencial criar um dashboard que oferecesse tanto uma visão consolidada quanto uma análise mais detalhada. O   
+  objetivo era permitir uma visualização rápida e prática de indicadores como Receita, Lucro, ROAS, Share dos clientes, qualidade do funil de vendas, taxa de conversão, Renda Mensal Recorrente (MRR) e Lifetime Value (LTV).
+  
+- Durante a análise dos dados, percebeu-se que as vendas de embalagens para panetone aumentavam no final do ano, algo esperado. No entanto, ao investir em marketing, esse crescimento não era significativamente maior. Para entender melhor essa relação, decidi realizar um   teste estatístico e avaliar se os investimentos em campanhas de marketing, entre outubro e dezembro, realmente impactavam as vendas nesse período.
+  
+- Optei pelo teste t (inserir justificativa para a escolha do teste) e, com os resultados, apresentei recomendações embasadas, reforçando a tomada de decisão orientada por dados. Isso permitiu direcionar os próximos passos com mais confiança e estratégia.
+
+## 4️⃣ Resultados
+
+*inserir o link para o dashboard, gráficos com o resultado dos testes estatísticos e o link para o documento com a recomendação*
 
 
 
 
 
-
-## 4️⃣ Estrutura do Repositório
+## 5️⃣ Estrutura do Repositório
 ```
 projeto-data-warehouse-analytics/
 │
 ├── datasets/                           # Arquivos brutos usados no projeto
-│
+│   ├── ads.csv                         # Arquivo com os anúncios em campanhas de marketing
+│   ├── leads.csv                       # Arquivo com informações sobre leads coletadas do CRM e sistemas de marketing
+│   ├── vendas.csv                      # Arquivo com as vendas realizadas, coletadas do ERP
+|
 ├── docs/                               # Documentação do projeto
 │   ├── arquitetura_final.drawio        # Arquivo Draw.io com a representação da arquitetura do projeto e fluxo de dados
 │   ├── data_catalog.md                 # Catálogo dos datasets, com descrições dos campos e metadados
-│   ├── modelagem.drawio                # Diagrama da modelagem de dados (star schema)
+│   ├── diagrama .drawio                # Diagrama da modelagem de dados (star schema)
 │
 ├── scripts/                            # Scripts SQL scripts usados nas etapas de ETL
-│   ├── silver/                         # Scripts de criação, carregamento, limpeza e transformação.
-│   ├── gold/                           # Scripts de modelagem.
-│
-├── testes/                             # Scripts de testes para verificar qualidade dos dados em cada etapa
-│
+│   ├── gold/                           # Scripts de modelagem
+|   |── silver/                         # Scripts de criação, carregamento, limpeza e transformação
+|   |── create_database.sql             # Script de criação da base de dados e schemas
+|
 ├── LICENSE                             # Licença utilizada no repositório
 ├── README.md                           # Visão geral do projeto e demais informações
 
 ```
 
 
-## 5️⃣ Licença
+## 6️⃣ Licença
 
 Projeto sob licença [MIT License](LICENSE).
  
