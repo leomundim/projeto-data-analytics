@@ -12,7 +12,7 @@ Duas informações de suma importância precisam ser consideradas:
 
 
 ---
-## Visão Geral
+## 📖 Visão Geral
 
 Esse projeto tem o seguinte escopo:
 
@@ -27,7 +27,7 @@ Esse projeto tem o seguinte escopo:
 
 
 ---
-## Tecnologia 
+## 🛠️ Tecnologia 
 
 1. **SQL Server**: T-SQL e SQL.
 2. **Power BI**: DAX, Power Query, Power BI Service.
@@ -35,21 +35,20 @@ Esse projeto tem o seguinte escopo:
 
 
 ---
-## Estrutura do Repositório
+## 📂 Estrutura do Repositório
 ```
 projeto-data-warehouse-analytics/
 │
 ├── datasets/                           # Arquivos brutos usados no projeto
 │
 ├── docs/                               # Documentação do projeto
-│   ├── arq.drawio                      # Arquivo Draw.io com a representação da arquitetura do projeto e fluxo de dados
+│   ├── arquitetura_final.drawio        # Arquivo Draw.io com a representação da arquitetura do projeto e fluxo de dados
 │   ├── data_catalog.md                 # Catálogo dos datasets, com descrições dos campos e metadados
 │   ├── modelagem.drawio                # Diagrama da modelagem de dados (star schema)
 │
 ├── scripts/                            # Scripts SQL scripts usados nas etapas de ETL
-│   ├── bronze/                         # Scripts de extração e carregamento
-│   ├── silver/                         # Scripts de limpeza e transformação
-│   ├── gold/                           # Scripts de modelagem
+│   ├── silver/                         # Scripts de criação, carregamento, limpeza e transformação.
+│   ├── gold/                           # Scripts de modelagem.
 │
 ├── testes/                             # Scripts de testes para verificar qualidade dos dados em cada etapa
 │
@@ -58,7 +57,10 @@ projeto-data-warehouse-analytics/
 
 ```
 
+---
+## 🛡️ License
 
+Licença [MIT License](LICENSE). 
 ---
 ## Sobre Mim
 
