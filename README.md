@@ -63,7 +63,7 @@ projeto-data-warehouse-analytics/
 Projeto sob licença [MIT License](LICENSE).
  
 ---
-## Sobre Mim
+## 👨 Sobre Mim
 
 Meu nome é **Leonardo Mundim**, sou um Analista de Dados & BI, apaixonado por resolver problemas reais de negócios com soluções data-driven, mesclando o pensamento analítico e simplicidade.
 
@@ -74,5 +74,5 @@ Vamos nos conectar!
 
 
 ---
-## Prévia dos Resultados
-*incluir um GIF com o dashboard ou o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
+## 🧩 Contexto de Negócio
+*detalhar o contexto, incluir um GIF com o dashboard , o próprio link e também gráficos dos testes e a recomendação pós análise estatística*
