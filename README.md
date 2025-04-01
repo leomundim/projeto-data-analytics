@@ -4,6 +4,8 @@ Bem-vindo ao repositório deste projeto!
 
 Este projeto apresenta uma solução completa de análise de dados, desde a construção de um data warehouse simples até a criação de um dashboard para monitoramento do negócio. Além disso, inclui testes estatísticos e recomendações baseadas nos insights obtidos.
 
+![Arquitetura](docs/arquitetura_final.drawio.PNG)
+
 ### Informações importantes: 
 
 **1.** Origem do projeto: Esta é uma releitura de um trabalho que desenvolvi em uma experiência profissional anterior. Para preservar a privacidade da empresa, dados como nomes de clientes, produtos, preços e custos foram substituídos por valores fictícios. No entanto, a estrutura do projeto foi mantida para garantir a fidelidade ao cenário real.
@@ -11,7 +13,7 @@ Este projeto apresenta uma solução completa de análise de dados, desde a cons
 **2.** Tecnologias utilizadas: No projeto original, utilizei `Excel`, `Power BI` e `Python`. Nesta versão, estou realizando o processo de ETL no `SQL Server` para uma abordagem mais estruturada e aplicando o `Azure ML` para os testes estatísticos, seguindo as melhores práticas em arquitetura e análise de dados.
 
 
-## 1️⃣ Contexto de Negócio
+## ◾ Contexto de Negócio
 
 - Havia a necessidade de organizar os dados e definir métricas e KPIs de vendas e marketing para acompanhar o desempenho da área comercial. Para isso, seria essencial criar um dashboard que oferecesse tanto uma visão consolidada quanto uma análise mais detalhada. O   
   objetivo era permitir uma visualização rápida e prática de indicadores como Receita, Lucro, ROAS, Share dos clientes, qualidade do funil de vendas, taxa de conversão, Renda Mensal Recorrente (MRR) e Lifetime Value (LTV).
@@ -21,37 +23,37 @@ Este projeto apresenta uma solução completa de análise de dados, desde a cons
 - Optei pelo teste t (inserir justificativa para a escolha do teste) e, com os resultados, apresentei recomendações embasadas, reforçando a tomada de decisão orientada por dados. Isso permitiu direcionar os próximos passos com mais confiança e estratégia.
 
 
-## 2️⃣ Visão Geral
+## ◾ Visão Geral
 
 Este projeto tem como objetivo estruturar e analisar dados para otimizar a tomada de decisão no negócio. Para isso, serão seguidas as seguintes etapas:  
 
-### 1. Arquitetura de Dados  
+###   Arquitetura de Dados  
 Implementação de um Data Warehouse simples seguindo o padrão Medallion Architecture:  
 - **Bronze**: Carregamento dos dados no formato original (*as-is*).  
 - **Silver**: Limpeza, padronização e enriquecimento dos dados.  
 - **Gold**: Modelagem e preparação dos dados para consumo final (views).  
 
-### 2. ETL (Extração, Transformação e Carga)  
+###   ETL (Extração, Transformação e Carga)   
 Processamento e organização dos dados para que estejam prontos para análises e visualizações.  
 
-### 3. Modelagem de Dados  
+###   Modelagem de Dados   
 Criação das tabelas fato e dimensão, garantindo uma estrutura otimizada para consultas e análises.  
 
-### 4. Dashboard no Power BI  
+###   Dashboard no Power BI  
 Desenvolvimento de um painel interativo com métricas e KPIs estratégicos, como Faturamento, Lucro, Margem, ROAS e outros indicadores de performance de vendas e marketing.  
 
-### 5. Análise de Dados  
+###   Análise de Dados  
 Aplicação de testes estatísticos para avaliar o impacto de investimentos em anúncios de campanhas de marketing.  
 
-### 6. Apresentação de Resultados  
+###   Apresentação de Resultados
 Interpretação dos testes estatísticos e recomendações baseadas nos insights obtidos, auxiliando na tomada de decisão.
 
-![Arquitetura](docs/arquitetura_final.drawio.PNG)
 
 
 
 
-## 3️⃣ Tecnologia 
+
+## ◾ Tecnologia 
 
 - **`SQL Server`**: T-SQL e SQL.
 - **`Power BI`**: DAX, Power Query, Power BI Service.
@@ -61,7 +63,7 @@ Interpretação dos testes estatísticos e recomendações baseadas nos insights
 
 
 
-## 4️⃣ Resultados
+## ◾ Resultados
 
 *inserir o link para o dashboard, gráficos com o resultado dos testes estatísticos e o link para o documento com a recomendação*
 
@@ -69,7 +71,7 @@ Interpretação dos testes estatísticos e recomendações baseadas nos insights
 
 
 
-## 5️⃣ Diretórios do Repositório
+## ◾ Diretórios do Repositório
 ```
 projeto-data-warehouse-analytics/
 │
@@ -94,7 +96,7 @@ projeto-data-warehouse-analytics/
 ```
 
 
-## 6️⃣ Licença
+## ◾ Licença
 
 Projeto sob licença [MIT License](LICENSE).
  
