@@ -5,7 +5,7 @@ A camada Ouro traz as informações a nível de negócio, estruturada para anál
 
 ---
 
-**gold.dim_clientes**
+### **gold.dim_clientes**
 - **Objetivo:** Armazenar detalhes de clientes, como segmento e informações demográficas.
 
 | Nome da Coluna   | Tipo de Dados | Descrição                                                                                     |
@@ -19,7 +19,7 @@ A camada Ouro traz as informações a nível de negócio, estruturada para anál
 
 ---
 
-### 2. **gold.dim_produtos**
+### **gold.dim_produtos**
 - **Objetivo:** Armazenar as informações de produtos como linha, preços e custos.
 
 | Nome da Coluna   | Tipo de Dados | Descrição                                                                                     |
@@ -33,7 +33,7 @@ A camada Ouro traz as informações a nível de negócio, estruturada para anál
 
 ---
 
-### 3. **gold.fato_vendas**
+### **gold.fato_vendas**
 - **Objetivo:** Armazenar todas as vendas realizadas e demais informações.
 
 | Nome da Coluna   | Tipo de Dados | Descrição                                                                                     |
