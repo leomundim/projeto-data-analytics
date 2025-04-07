@@ -8,9 +8,8 @@ Este projeto apresenta uma solução completa de análise de dados, desde a cons
 
 ### Informações importantes: 
 
-**1.** Origem do projeto: Esta é uma releitura de um trabalho que desenvolvi em uma experiência profissional anterior. Para preservar a privacidade da empresa, dados como nomes de clientes, produtos, preços e custos foram substituídos por valores fictícios. No entanto, a estrutura do projeto foi mantida para garantir a fidelidade ao cenário real.
+Origem do projeto: Esta é uma releitura de um trabalho que desenvolvi em uma experiência profissional anterior. Para preservar a privacidade da empresa, dados como nomes de clientes, produtos, preços e custos foram substituídos por valores fictícios. No entanto, a estrutura do projeto foi mantida para garantir a fidelidade ao cenário real.
 
-**2.** Tecnologias utilizadas: No projeto original, utilizei `Excel`, `Power BI` e `Python`. Nesta versão, estou realizando o processo de ETL no `SQL Server` para uma abordagem mais estruturada e aplicando o `Azure ML` para os testes estatísticos, seguindo as melhores práticas em arquitetura e análise de dados.
 
 
 ## ◾ Contexto de Negócio
@@ -25,7 +24,7 @@ Este projeto apresenta uma solução completa de análise de dados, desde a cons
 
 ## ◾ Visão Geral
 
-Este projeto tem como objetivo estruturar e analisar dados para otimizar a tomada de decisão no negócio. Para isso, serão seguidas as seguintes etapas:  
+Para o projeto serão seguidas as seguintes etapas:  
 
 ###   Arquitetura de Dados  
 Implementação de um Data Warehouse simples seguindo o padrão Medallion Architecture:  
