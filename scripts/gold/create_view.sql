@@ -64,17 +64,7 @@ SELECT
 	vendas_produto 			AS produto,
 	vendas_preco 			AS preco_unitario,
 	vendas_quantidade 		AS quantidade,
-	vendas_total 		        AS valor_total,
+	vendas_total2		        AS valor_total,
 	vendas_desconto 		AS desconto_percentual,
-	CAST(CAST(SUBSTRING(vendas_desconto, 1, LEN(vendas_desconto) - 1) AS DECIMAL(10,2)) / 100 * vendas_total AS DECIMAL(10,2)) AS desconto_valor,
-	vendas_total - CAST(CAST(SUBSTRING(vendas_desconto, 1, LEN(vendas_desconto) - 1) AS DECIMAL(10,2)) / 100 * vendas_total AS DECIMAL(10,2)) AS desconto_valor
+	CAST(CAST(SUBSTRING(vendas_desconto, 1, LEN(vendas_desconto) - 1) AS DECIMAL(10,2)) / 100 * vendas_total2 AS DECIMAL(10,2)) AS desconto_valor	
 FROM silver.vendas
-
-
-
-
-
-
-
-
-
