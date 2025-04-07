@@ -74,7 +74,7 @@ Interpretação dos testes estatísticos e recomendações baseadas nos insights
 ```
 projeto-data-warehouse-analytics/
 │
-├── 📂 datasets                           # Arquivos brutos usados no projeto
+├── 📂 datasets                          # Arquivos brutos usados no projeto
 │    ├── ads.csv                         # Arquivo com os anúncios em campanhas de marketing
 │    ├── leads.csv                       # Arquivo com informações sobre leads coletadas do CRM e sistemas de marketing
 │    ├── vendas.csv                      # Arquivo com as vendas realizadas, coletadas do ERP
@@ -89,8 +89,8 @@ projeto-data-warehouse-analytics/
 |    ├── 📂silver                        # Scripts de criação, carregamento, limpeza e transformação
 |    ├── create_database.sql             # Script de criação da base de dados e schemas
 |
-├── LICENSE                             # Licença utilizada no repositório
-├── README.md                           # Visão geral do projeto e demais informações
+├── LICENSE                              # Licença utilizada no repositório
+├── README.md                            # Visão geral do projeto e demais informações
 
 ```
 
