@@ -64,8 +64,6 @@ Interpretação dos testes estatísticos e recomendações baseadas nos insights
 
 ## ◾ Resultados
 
-*inserir o link para o dashboard, gráficos com o resultado dos testes estatísticos e o link para o documento com a recomendação*
-
 [Dashboard Power BI](https://www.loom.com/share/31660dc2d6f44b78a92252a9df3f1c47?sid=2fac780b-5ea6-4f70-8637-9c41cb62ea46)
 
 
