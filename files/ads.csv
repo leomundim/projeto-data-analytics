@@ -1,0 +1,105 @@
+﻿data ads;midia;valor;mês;ano;campanha
+04/01/2022;google;3336;1;2022;Torta
+11/01/2022;google;2916;1;2022;Torta
+18/01/2022;meta ads;1936;1;2022;Torta
+25/01/2022;meta ads;2344;1;2022;Torta
+01/02/2022;google;3132;2;2022;Torta
+08/02/2022;meta ads;2176;2;2022;Torta
+15/02/2022;google;3216;2;2022;Torta
+22/02/2022;meta ads;2088;2;2022;Torta
+01/03/2022;meta ads;2224;3;2022;Torta
+08/03/2022;meta ads;2288;3;2022;Torta
+15/03/2022;meta ads;2040;3;2022;Torta
+22/03/2022;meta ads;2008;3;2022;Torta
+29/03/2022;meta ads;2064;3;2022;Torta
+05/04/2022;google;3348;4;2022;Torta
+12/04/2022;meta ads;2248;4;2022;Torta
+19/04/2022;google;3156;4;2022;Torta
+26/04/2022;google;3192;4;2022;Torta
+03/05/2022;google;3192;5;2022;Torta
+10/05/2022;google;3168;5;2022;Torta
+17/05/2022;google;3348;5;2022;Torta
+24/05/2022;meta ads;1960;5;2022;Torta
+31/05/2022;google;3444;5;2022;Torta
+07/06/2022;meta ads;2008;6;2022;Torta
+14/06/2022;meta ads;2152;6;2022;Torta
+21/06/2022;meta ads;2048;6;2022;Torta
+28/06/2022;google;3072;6;2022;Torta
+05/07/2022;meta ads;2400;7;2022;Torta
+12/07/2022;google;3180;7;2022;Torta
+19/07/2022;google;3576;7;2022;Torta
+26/07/2022;meta ads;1984;7;2022;Torta
+02/08/2022;meta ads;2040;8;2022;Torta
+09/08/2022;meta ads;2384;8;2022;Torta
+16/08/2022;google;3240;8;2022;Torta
+23/08/2022;google;3192;8;2022;Torta
+30/08/2022;meta ads;2096;8;2022;Torta
+06/09/2022;meta ads;2232;9;2022;Torta
+13/09/2022;google;3348;9;2022;Torta
+20/09/2022;meta ads;2136;9;2022;Torta
+27/09/2022;google;3432;9;2022;Torta
+04/10/2022;meta ads;2168;10;2022;Panetone
+11/10/2022;meta ads;2168;10;2022;Panetone
+18/10/2022;meta ads;1976;10;2022;Panetone
+25/10/2022;meta ads;2048;10;2022;Panetone
+01/11/2022;google;3192;11;2022;Panetone
+08/11/2022;google;3456;11;2022;Panetone
+15/11/2022;meta ads;1936;11;2022;Panetone
+22/11/2022;meta ads;2000;11;2022;Panetone
+29/11/2022;google;3528;11;2022;Panetone
+06/12/2022;meta ads;2400;12;2022;Torta
+13/12/2022;google;3168;12;2022;Torta
+20/12/2022;meta ads;1952;12;2022;Torta
+27/12/2022;google;3216;12;2022;Torta
+03/01/2023;meta ads;2280;1;2023;Torta
+10/01/2023;meta ads;2120;1;2023;Torta
+17/01/2023;meta ads;2280;1;2023;Torta
+24/01/2023;meta ads;2112;1;2023;Torta
+31/01/2023;meta ads;2392;1;2023;Torta
+07/02/2023;meta ads;2104;2;2023;Torta
+14/02/2023;google;3324;2;2023;Torta
+21/02/2023;google;3408;2;2023;Torta
+28/02/2023;google;3552;2;2023;Torta
+07/03/2023;google;3132;3;2023;Torta
+14/03/2023;google;3468;3;2023;Torta
+21/03/2023;google;3336;3;2023;Torta
+28/03/2023;google;2916;3;2023;Torta
+04/04/2023;google;3264;4;2023;Torta
+11/04/2023;meta ads;2024;4;2023;Torta
+18/04/2023;google;3276;4;2023;Torta
+25/04/2023;google;3180;4;2023;Torta
+02/05/2023;meta ads;1928;5;2023;Torta
+09/05/2023;google;3516;5;2023;Torta
+16/05/2023;meta ads;2192;5;2023;Torta
+23/05/2023;google;3564;5;2023;Torta
+30/05/2023;meta ads;2192;5;2023;Torta
+06/06/2023;google;3288;6;2023;Torta
+13/06/2023;google;3456;6;2023;Torta
+20/06/2023;meta ads;2192;6;2023;Torta
+27/06/2023;meta ads;2080;6;2023;Torta
+04/07/2023;google;3144;7;2023;Torta
+11/07/2023;meta ads;1976;7;2023;Torta
+18/07/2023;google;3300;7;2023;Torta
+25/07/2023;google;3168;7;2023;Torta
+01/08/2023;google;3192;8;2023;Torta
+08/08/2023;google;3000;8;2023;Torta
+15/08/2023;google;3588;8;2023;Torta
+22/08/2023;meta ads;2384;8;2023;Torta
+29/08/2023;google;3204;8;2023;Torta
+05/09/2023;google;3192;9;2023;Torta
+12/09/2023;google;3588;9;2023;Torta
+19/09/2023;google;3240;9;2023;Torta
+26/09/2023;meta ads;2208;9;2023;Torta
+03/10/2023;meta ads;2096;10;2023;Panetone
+10/10/2023;google;3528;10;2023;Panetone
+17/10/2023;google;3480;10;2023;Panetone
+24/10/2023;meta ads;2232;10;2023;Panetone
+31/10/2023;meta ads;1984;10;2023;Panetone
+07/11/2023;meta ads;2088;11;2023;Panetone
+14/11/2023;google;3036;11;2023;Panetone
+21/11/2023;google;2928;11;2023;Panetone
+28/11/2023;meta ads;2080;11;2023;Panetone
+05/12/2023;meta ads;2040;12;2023;Torta
+12/12/2023;google;3252;12;2023;Torta
+19/12/2023;google;3480;12;2023;Torta
+26/12/2023;meta ads;2312;12;2023;Torta
