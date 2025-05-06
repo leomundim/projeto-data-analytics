@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório deste projeto! 
 
-Este projeto apresenta uma solução completa de análise de dados, desde a construção de um data warehouse simples até a criação de um dashboard para monitoramento do negócio. Além disso, inclui testes estatísticos e recomendações baseadas nos insights obtidos.
+Este projeto apresenta uma solução completa de análise de dados, desde a construção de um data warehouse simples até a criação de um dashboard para monitoramento do negócio. 
 
 ![Arquitetura](docs/arquitetura_final.drawio.PNG)
 
@@ -17,9 +17,6 @@ Origem do projeto: Esta é uma releitura de um trabalho que desenvolvi em uma ex
 - Havia a necessidade de organizar os dados e definir métricas e KPIs de vendas e marketing para acompanhar o desempenho da área comercial. Para isso, seria essencial criar um dashboard que oferecesse tanto uma visão consolidada quanto uma análise mais detalhada. O   
   objetivo era permitir uma visualização rápida e prática de indicadores como Receita, Lucro, ROAS, Share dos clientes, qualidade do funil de vendas, taxa de conversão, Renda Mensal Recorrente (MRR) e Lifetime Value (LTV).
   
-- Durante a análise dos dados, percebeu-se que as vendas de embalagens para panetone aumentavam no final do ano, algo esperado. No entanto, ao investir em marketing, esse crescimento não era significativamente maior. Para entender melhor essa relação, decidi realizar um   teste estatístico e avaliar se os investimentos em campanhas de marketing, entre outubro e dezembro, realmente impactavam as vendas nesse período.
-  
-- Optei pelo teste t (inserir justificativa para a escolha do teste) e, com os resultados, apresentei recomendações embasadas, reforçando a tomada de decisão orientada por dados. Isso permitiu direcionar os próximos passos com mais confiança e estratégia.
 
 
 ## ◾ Visão Geral
@@ -41,31 +38,18 @@ Criação das tabelas fato e dimensão, garantindo uma estrutura otimizada para 
 ###   Dashboard no Power BI  
 Desenvolvimento de um painel interativo com métricas e KPIs estratégicos, como Faturamento, Lucro, Margem, ROAS e outros indicadores de performance de vendas e marketing.  
 
-###   Análise de Dados  
-Aplicação de testes estatísticos para avaliar o impacto de investimentos em anúncios de campanhas de marketing.  
-
-###   Apresentação de Resultados
-Interpretação dos testes estatísticos e recomendações baseadas nos insights obtidos, auxiliando na tomada de decisão.
-
-
-
-
 
 
 ## ◾ Tecnologia 
 
 - **`SQL Server`**: T-SQL e SQL.
 - **`Power BI`**: DAX, Power Query, Power BI Service.
-- **`Azure ML`**: Python (Statsmodels, SciPy, Pandas).
-
-
 
 
 
 ## ◾ Resultados
 
 [Dashboard Power BI](https://www.loom.com/share/31660dc2d6f44b78a92252a9df3f1c47?sid=2fac780b-5ea6-4f70-8637-9c41cb62ea46)
-
 
 
 
