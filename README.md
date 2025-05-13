@@ -87,7 +87,9 @@ Projeto sob licença [MIT License](LICENSE).
 ---
 ## ◾ Sobre Mim
 
-Meu nome é **Leonardo Mundim**, sou um curioso Analista de Dados & BI, focado em resolver problemas reais de negócios com soluções data-driven, mesclando o pensamento analítico e simplicidade.
+Meu nome é **Leonardo Mundim**, sou Analista de Dados & Business Intelligence, com 5 anos de experiência em áreas comerciais de empresas B2B e B2C, atuando nos setores de Indústria e Consultoria. Foco em compreender necessidades e demandas de negócios, realizando o levantamento de requisitos e traduzindo-os em ações práticas. 
+
+Atuo na otimização de operações e apoio à tomada de decisões por meio da extração, transformação e interpretação de dados, e criação e monitoramento de dashboards interativos de indicadores. Também tenho conhecimento em estatística descritiva, probabilística, inferencial e modelos de machine learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/leonardo-mundim)
 
